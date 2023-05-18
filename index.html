@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>oque esta por vir?</title>
+    <link rel="stylesheet" href="./img/& (1).png">
+    <link rel="stylesheet" href="./style.css">
+    <meta name="DESCRIPTION" content="site de lancamento da g&to">
+    <script>
+        function mensagem() {
+            alert("voce sera redirecionado para o seu servidor de email,caso nao esteja logado no seu email, efetue o login e tente novamente")
+        }
+        function click_menu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+        function tamanho_site() {
+            if (window.innerWidth > 768) {
+                itens.style.display = 'flex'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+    </script>
+
+    <script src="https://kit.fontawesome.com/1e454b30fa.js" crossorigin="anonymous"></script>
+</head>
+
+<body onresize="tamanho_site()">
+    <header>
+        <nav class="alinhamento">
+            <a class="link_logo" href="">
+                <img class="logo" src="./img/flasco2.png" alt="logo da marca g&to">
+            </a>
+            <ul class="menu" id="itens">
+                <li><a href="#">home</a></li>
+                <li><a href="#quem_somos">ta devendo caloteiro?</a></li>
+                <li><a href="#conheça_a_esg">bando de burro</a></li>
+                <li><a href="#contato">questionario</a></li>
+            </ul>
+
+            <i id="burguer" class="fa-solid fa-bars" onclick="click_menu()"></i>
+
+        </nav>
+    </header>
+    <main>
+        <h1>pagina de lançamento estrategico da G&to jeito</h1>
+
+        <section class="quem_somos alinhamento" id="quem_somos">
+            <img class="primeira_foto" src="./img/WhatsApp Image 2023-05-15 at 16.20.46.jpeg" alt="uma mãe com a filha no parque">
+
+            <div class="sobre">
+                <p class="sobre_titulo">ola, somos a tenebrios tenebrosos</p>
+                <p class="sobre_texto"> vendemos tenebrios se nao pagar vai levar bala de canhao <p>
+                <button class="btn_esg">
+                    <a href="#conheça_a_esg">bizoia nossos tenebrios </a>
+                </button>
+            </div>
+        </section>
+        <section class="data">
+            <video width="500" height="500" controls>
+                <source src="./img/WhatsApp Video 2023-05-15 at 16.19.12.mp4"></source>
+              </video>
+            <p>live de assasinato de <span>caloteiros</span></p>
+            <time datetime="2023-06-06">11/09/2005</time>
+        </section>
+        <section class="esg alinhamento" id="conheça_a_esg">
+            <div class="sobre_esg">
+                <p class="sobre_esg_titulo">o que sao tenebrios tenebrosos</p>
+                <p class="sobre_esg_texto">A larva-da-farinha, tenébrio, ou tenebrião ou tenebroso é a larva do Tenebrio molitor, 
+                    um besouro do gênero Tenebrio, representante típico da família dos tenebrosonídeos, de cor preta ou 
+                    pardo-escura, que constitui praga bastante vulgar. Como todos os insetos homofobicos, atravessa 
+                    cinco estágios na vida: ovo, larva, pupa,adulto, e tenebroso. As larvas medem tipicamente cerca de
+                     2,5 m e os adultos vão de 1,25 m a 1,8 m de comprimento.</p>
+            </div>
+            <img src="./img/WhatsApp Image 2023-05-16 at 15.09.17.jpeg" alt="homem com blusa de frio branca">
+        </section>
+        <section class="formulario">
+            <p class="formulario_titulo">ficou tenebroso?</p>
+            <form method="post" action="mailto:geto@gmail.com" enctype="text/plain">
+                <div>
+                    <label for="name"> nome</label><input class="borda" type="text" id="name" name="name">
+                </div>
+                <div>
+                    <label for="email"> email</label>
+                    <input class="borda" type="email" id="email" name="email">
+                </div>
+
+                <div>
+                    <label for="message"> mensagem:</label>
+                    <textarea class="borda" name="message" id="message" cols="40" rows="6"></textarea>
+                </div>
+                <button class="btn_forms" type="submit" onclick="mensagem()">tenebrosar</button>
+            </form>
+        </section>
+
+        <section class="contato alinhamento" id="contato">
+            <p class="contato_titulo"> contato</p>
+            <div class="conteudo_contato">
+                <div class="borda_mapa">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3653.6757470015846!2d-46.37055208918848!3d-23.687551078624498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce6d7941ecf2e9%3A0xad7420162640f1ca!2sR.%20Japira%20-%20Ouro%20Fino%20Paulista%2C%20Ribeir%C3%A3o%20Pires%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1684260271120!5m2!1spt-BR!2sbr" width="600" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <frameborder="0"></iframe>
+                </div>
+                <div class="contato_info">
+                    <div class="info">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>(99) 99999-9999</p>
+                    </div>
+
+                    <div class="info">
+                        <i class="fa-solid fa-envelope"></i>
+                        <p>contato@tenebrosos.com</p>
+                    </div>
+
+                    <div class="info">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>rua tenebrosa, 180-scs</p>
+                    </div>
+
+                    <div class="info">
+                        <i class="fa-brands fa-instagram"></i>
+                        <p>@tenebrosos</p>
+                    </div>
+
+                    <div class="info">
+                        <i class="fa-solid fa-dragon"></i>
+                        <p>@tenebroso</p>
+                    </div>
+
+                    <div class="info">
+                        <i class="fa-brands fa-facebook"></i>
+                        @tenebrosos
+                    </div>
+            </div>
+        </section>
+        <div class="test">
+
+            <img class="segunda_foto" src="./img/WhatsApp Image 2023-05-16 at 16.58.51.jpeg" alt="uma mãe com a filha no parque">
+        </div>
+
+    </main>
+    <footer>
+        <p>todos os direitos reservados &#169; tenebrios tenebroso ltda</p>
+
+    </footer>
+</body>
+
+</html>
